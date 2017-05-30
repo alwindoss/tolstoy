@@ -35,7 +35,7 @@ var RootCmd = &cobra.Command{
 	Use:   "tolstoy",
 	Short: "A Learning Management System Server",
 	Long: `Tolstoy is a Learning Management System Server
-	This server exposes REST endpoints for any kind of client to consume
+This server exposes REST endpoints for any kind of client to consume
 	`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
