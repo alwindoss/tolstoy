@@ -33,4 +33,10 @@ var routes = Routes{
 		"/",
 		Index,
 	},
+	Route{
+		"Courses",
+		"GET",
+		"/tolstoy/api/v1/course",
+		GetCourses,
+	},
 }
